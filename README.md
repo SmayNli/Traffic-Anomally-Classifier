@@ -37,7 +37,7 @@ Sistem; trafik kazaları, kavgalar, yoldaki engeller, şerit/kırmızı ışık 
 └── requirements.txt        # Python bağımlılıkları
 ```
 
-🛠️ Teknolojiler ve Bağımlılıklar
+## 🛠️ Teknolojiler ve Bağımlılıklar
 Backend Framework: FastAPI, Uvicorn, Pydantic
 
 Görüntü & Video İşleme: OpenCV (opencv-python), NumPy
@@ -46,7 +46,7 @@ API & İletişim: Requests (NVIDIA API entegrasyonu için)
 
 Frontend: HTML5, CSS3, JavaScript (Vanilla JS)
 
-🚀 Kurulum ve Çalıştırma
+## 🚀 Kurulum ve Çalıştırma
 1. Depoyu Klonlayın
 git clone [https://github.com/kullanici-adi/trafik-anomalisi-analizi.git](https://github.com/kullanici-adi/trafik-anomalisi-analizi.git)
 cd trafik-anomalisi-analizi
@@ -97,7 +97,7 @@ Uygulama çalıştıktan sonra tarayıcınızdan http://127.0.0.1:8000 adresine 
   Frontend tarafındaki JavaScript hatalarını sunucuya iletir.
 
 
-🔬 Çalışma Prensibi
+## 🔬 Çalışma Prensibi
 Girdi Alma: Kullanıcı bilgisayarından bir video yükler veya hazır örnek videolar arasından bir seçim yapar. Ayrıca sorgulamak istediği etiketleri girer (örneğin: kaza, kavga, normal akış).
 
 Kare Çıkarma (Frame Extraction): Videodan eşit zaman aralıklarıyla 8 adet kare örneklenir. Çıkarılan her kare 336x336 piksel boyutuna dönüştürülüp JPEG olarak Base64 dizisine kodlanır.
