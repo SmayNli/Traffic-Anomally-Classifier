@@ -20,17 +20,8 @@ Sistem; trafik kazaları, kavgalar, yoldaki engeller, şerit/kırmızı ışık 
 
 ## 📂 Proje Yapısı
 
-
 ```
 .
-├── anomaly_footages
-│   ├── Dashcam Catches T-Bone Crash __ ViralHog.mp4
-│   ├── Dashcam shows Louisville bridge crash that left semi hanging over Ohio River.mp4
-│   ├── Illegal lane change in an intersection.mp4
-│   └── Traffic fight in Bucharest, Romania.mp4
-├── footage_analysis
-│   ├── crash.png
-│   └── illegal_lane_changing.png
 ├── static
 │   ├── samples
 │   │   ├── accident.mp4
