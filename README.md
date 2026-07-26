@@ -20,21 +20,30 @@ Sistem; trafik kazaları, kavgalar, yoldaki engeller, şerit/kırmızı ışık 
 
 ## 📂 Proje Yapısı
 
-```text
+
+```
 .
-├── static/
-│   ├── samples/            # Otomatik üretilen / kullanılan test videoları
+├── anomaly_footages
+│   ├── Dashcam Catches T-Bone Crash __ ViralHog.mp4
+│   ├── Dashcam shows Louisville bridge crash that left semi hanging over Ohio River.mp4
+│   ├── Illegal lane change in an intersection.mp4
+│   └── Traffic fight in Bucharest, Romania.mp4
+├── footage_analysis
+│   ├── crash.png
+│   └── illegal_lane_changing.png
+├── static
+│   ├── samples
 │   │   ├── accident.mp4
 │   │   ├── fight.mp4
 │   │   ├── normal.mp4
 │   │   ├── obstacle.mp4
 │   │   └── violation.mp4
-│   ├── app.js              # Arayüz (Frontend) mantığı ve API çağrıları
-│   ├── index.html          # Kullanıcı arayüzü
-│   └── styles.css          # Arayüz stilleri
-├── app.py                  # FastAPI ana sunucu ve API uç noktaları
-├── video_generator.py      # Sentetik video üretici modül
-└── requirements.txt        # Python bağımlılıkları
+│   ├── app.js
+│   ├── index.html
+│   └── styles.css
+├── app.py
+├── requirements.txt
+└── video_generator.py
 ```
 
 ## 🛠️ Teknolojiler ve Bağımlılıklar
